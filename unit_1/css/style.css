@@ -1,36 +1,35 @@
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-  background-color: #DCDCDC;
-  color: #000;
-  font-family: Helvetica;
-  margin: 60px;
+	background-color: #DCDCDC;
+	color: #000;
+	font-family: Helvetica, arial, sans-serif;
+	font-size:16px;
 }
 nav{
-	text-align: right;
-	padding-top: 5px;
-	padding-bottom: 20px
+	padding-top: .5em;
+	padding-bottom: 1em;
 }
 /*h2{
-	text-align: center;*/
-/*}*/
-
+	text-align: center;
+}*/
 a{
 	padding: 20px;
 }
 img{
-	height: 100px;
 	width: 75px;
 }
-div{
+
+li{
+	font-family: "Palatino Linotype";
+	line-height: 120%;
+}
+.column {
 	height: 200px;
 	background-color: #A52A2A;
 	width: 300px;
 	padding:10px;
 	margin: 20px;
 	/*border: 10px solid black;*/
-}
-li{
-	font-family: "Palatino Linotype";
-	line-height: 120%;
 }
 #maintext{
 	text-align: justify;
@@ -43,24 +42,7 @@ li{
 	font-style: italic;
 	font-weight: bold;
 	/*border: 10px solid black;*/
-
-}
-#about{
-	background-color: black;
-	color:white;
-}
-#projects{
-	background-color: black;
-	color:white;
-}
-#contact{
-	background-color: black;
-	color:white;
-}
-#email{
-	padding: 0px;
 }
 /*#accepted{
 	background-color: #A52A2A;
 }*/
-
