@@ -6,20 +6,20 @@
 body{
 	font-family: "Amiri";
 	font-size: 16px;
-	margin: .75em;
 }
 img{
 	background-color: black;
 	float: left;
 }
+nav {
+	float:right;
+}
 nav a{
-	float: right;
-	margin: .75em;
+	display:inline-block;
+	margin: 1em;
 	color: #F8F8F8;
 	background-color: #132020;
-	padding: 0.6em;
-	width: 95px;
-	text-align: center;
+	padding: 0.5em 1em;
 	text-transform: uppercase;
 }
 h1{
@@ -30,7 +30,7 @@ h1{
 h2{
 	background-color: #C0C0C0;
 	text-align: center;
-	font-size: 24px;
+	font-size: 1.5em;
 }
 footer{
 	background-color: orange;
@@ -62,14 +62,19 @@ li{
 #services{
 	background-color: #B22222;
 	padding: 2em;
-	font-size: 2em;
 	text-align: center;
 }
 #slogan{
-	background-color: #DCDCDC
+	background-color: #DCDCDC;
+	background:url(../images/citystreetsmall.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	padding:20em 0;
 }
 #box{
 	background-color: #DCDCDC;
-	/*width: 10em;*/
-	text-align: center;
+	margin:auto;
+	padding:2em;
+	width:50em;
 }
