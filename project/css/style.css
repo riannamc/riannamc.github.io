@@ -18,26 +18,28 @@ h1{
 	font-family: "special elite";
 	/*background-color: blue;*/
 	padding: 50px 20px;
-	/*width: 500px;*/
+/*	width: 500px;*/
 	float: left;
 }
 /*#wordmark{
 	float: left;
 }*/
 nav{
-	float: right;
+	/*float: right;*/
 	/*background-color: yellow;*/
+	margin: auto;
+	display: block;
 }
-h2{
+/*h2{
 	clear: both;
 	text-align: center;
 	background:url(../images/paperontable.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-attachment:fixed;
-	padding: 200px;
-/*	background-color:yellow;*/
-}
+	padding: 200px;*/
+	/*	background-color:yellow;
+}*/
 a {
 	display: inline-block;
 	padding: 30px;
@@ -45,6 +47,7 @@ a {
 	color: black;
 	/*background-color: green;*/
 	margin:20px;
+	background-color: yellow;
 }
 div{
 	text-align: center;
@@ -70,11 +73,88 @@ h3{
 #copyright{
 	padding:30px;
 }
+#header{
+	width:65%;
+	display: block;
+	margin: auto;
+}
 
 
+/*goodversion:
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(https://fonts.googleapis.com/css?family=Arapey);
 
+@import url(https://fonts.googleapis.com/css?family=Amaranth:400,700);
+@import url(https://fonts.googleapis.com/css?family=Amiri);
 
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
+* { margin:0; padding:0; box-sizing:border-box; }
 
+body{
+	font-family: "ubuntu";
+	font-size: 20px;
+	/*background-color: red;*/
+/*/*/*/*}
+h1{
+	text-transform: lowercase;
+	font-family: "special elite";
+	/*background-color: blue;*/
+	/*padding: 50px 20px;*/
+	/*width: 500px;*/
+/*	float: left;
+}
+#wordmark{
+	float: left;
+}
+nav{
+	float: right;*/
+	/*background-color: yellow;*/
+/*}
+h2{
+	clear: both;
+	text-align: center;
+	background:url(../images/paperontable.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	padding: 200px;
+		background-color:yellow;
+}
+a {
+	display: inline-block;
+	padding: 30px;
+	text-decoration: none;
+	color: black;*/
+	/*background-color: green;*/
+/*	margin:20px;
+}
+div{
+	text-align: center;
+}
+h3{
+	padding: 20px;
+}*/
+/*.circle{
+	margin:auto;
+}*/
+/*.columns{
+	float:left;
+	width: 300px;
+	display: inline-block;*/
+	/*background-color: orange;*/
+/*	margin: 40px;
+	padding: 20px;
+}
+#columns{
+	margin: auto;
+	width: 1140px;
+}
+#copyright{
+	padding:30px;
+}*/
+
+/*badversion:
 /*body{
 	background-color: #FCFCFC;
 	color: #121212;
