@@ -14,10 +14,38 @@ body{
 	background-color: white;
 }
 h1{
-	display: none;
+	/*display: none;*/
+	background-color: red;
+	clear: both;
+	text-align: center;
+/*	float: right;*/
+	
+/*	margin: 0em 4em;*/
+}
+h2{
+	background-color: gray;
+	padding: 2em;
+	text-align: center;
 }
 h3{
 	padding: 1.25em;
+}
+nav{
+	background-color: black;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #ccc;
+	text-transform: uppercase;
+	padding: 1.83em;
+	margin: 1em;
+	background-color: yellow;
+}
+nav ul{
+	float: right;
 }
 .columns{
 	width: 25.85%;
@@ -26,9 +54,20 @@ h3{
 	padding: 1.55%;
 	text-align: center;
 }
+.circle{
+	text-align: center;
+}
+#logo{
+	background-color: blue;
+	float: left;
+	padding: .5em;
+
+/*	display: block;*/
+}
 #columns{
 	margin: auto;
 	width: 100%;
+	float: left;
 }
 #copyright{
 	padding:2em;
@@ -40,19 +79,19 @@ h3{
 	margin: auto;
 	padding: 0 0 1.25em;
 }
-.circle{
-	text-align: center;
-}
-#nav{
+
+
+/*#nav{
 	background-color: #222;
 	font-family: arial;
-}
-#nav_wrapper{
+}*/
+
+/*#nav_wrapper{
 	width: 100%;
 	margin: 0 auto;
 	text-align: left;
-}
-#nav ul{
+}*/
+/*#nav ul{
 	list-style-type: none;
 	margin:	0;
 	padding: 0;
@@ -98,7 +137,7 @@ h3{
 #nav ul ul li a:hover{
 	color: #963022;
 }
-
+*/
 
 @media only screen and (max-width: 768px) {
 p{
